@@ -38,10 +38,10 @@ After installation, verify that the required SDK is available:
 dotnet --list-sdks
 ```
 
-The output should include version 10.0.400 or a compatible later SDK, for example:
+The output lists each installed SDK and its installation path. It may include newer major versions, but this repository requires .NET 10 SDK version 10.0.400 or later in the `10.0.*` series, for example:
 
 ```text
-10.0.400
+10.0.400 [C:\Program Files\dotnet\sdk]
 ```
 
 ## Setup
